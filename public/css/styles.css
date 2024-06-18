@@ -1,0 +1,216 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #55b555;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul li a:hover {
+    background-color: #6dc66d;
+}
+
+main {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+section {
+    background-color: #ffcccc; /* Light red background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #cc3300; /* Dark orange text */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    color: #cc3300; /* Dark orange heading */
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    color: #666; /* Gray text */
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Specific styles for other pages */
+
+/* Styles for species.html */
+.species-section {
+    background-color: #ffe6e6; /* Light pink background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.species-section h2 {
+    color: #cc0066; /* Dark pink text */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.species-section article {
+    background-color: #fff;
+}
+
+.species-section article h3 {
+    color: #cc0066; /* Dark pink heading */
+}
+
+/* Styles for pests-diseases.html */
+.pests-diseases-section {
+    background-color: #ffffcc; /* Light yellow background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pests-diseases-section h2 {
+    color: #cc9900; /* Dark yellow text */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.pests-diseases-section article {
+    background-color: #fff;
+}
+
+.pests-diseases-section article h3 {
+    color: #cc9900; /* Dark yellow heading */
+}
+
+/* Styles for transport.html */
+.transport-section {
+    background-color: #cce0ff; /* Light blue background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.transport-section h2 {
+    color: #0066cc; /* Dark blue text */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transport-section article {
+    background-color: #fff;
+}
+
+.transport-section article h3 {
+    color: #0066cc; /* Dark blue heading */
+}
+
+/* Styles for growing.html */
+.growing-section {
+    background-color: #e6f2ff; /* Light aqua background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.growing-section h2 {
+    color: #0099cc; /* Dark aqua text */
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.growing-section article {
+    background-color: #fff;
+}
+
+.growing-section article h3 {
+    color: #0099cc; /* Dark aqua heading */
+}
